@@ -1402,14 +1402,12 @@
                 !c &&
                 ((e =
                   e ||
-                  ((n = t('<a class="w-webflow-badge"></a>').attr("href", "")),
+                  ((n = t("<").attr("", "")),
                   (i = t("<img>")
-                    .attr("src", "")
-                    .attr("alt", "")
+                    .attr("", "")
+                    .attr("", "")
                     .css({ marginRight: "8px", width: "16px" })),
-                  (a = t("<img>")
-                    .attr("src", "")
-                    .attr("alt", "Made in Webflow")),
+                  (a = t("").attr("", "").attr("", "")),
                   n.append(i, a),
                   n[0])),
                 d(),
